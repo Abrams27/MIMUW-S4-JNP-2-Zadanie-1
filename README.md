@@ -9,12 +9,12 @@ https://camel.apache.org/components/latest/dropbox-component.html
 
 # Budowanie:
 ```
-./mvnw clean install
+mvn clean install
 ```
 
 # Odpalanie:
 ```
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 albo w ide jak sie wejdzie do klasy
 `Zadanie1Application`
