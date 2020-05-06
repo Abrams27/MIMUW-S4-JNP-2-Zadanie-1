@@ -4,8 +4,8 @@ Małe zadanko z JNP 2 (architektura) - integracja maila z dropboxem
 ## Mail:
 https://camel.apache.org/components/latest/mail-component.html
 
-## Dropbox:
-https://camel.apache.org/components/latest/dropbox-component.html
+## Kafka:
+https://camel.apache.org/components/latest/kafka-component.html
 
 # Budowanie:
 ```
