@@ -1,21 +1,20 @@
-# MIMUW-S4-JNP-2-Zadanie-1
-Małe zadanko z JNP 2 (architektura) - integracja maila z kafką
+# kafkamail
+Simple kafka and mail integration using camel:
 
-## Mail:
-https://camel.apache.org/components/latest/mail-component.html
+- [mail](https://camel.apache.org/components/latest/mail-component.html)
+- [kafka](https://camel.apache.org/components/latest/kafka-component.html)
 
-## Kafka:
-https://camel.apache.org/components/latest/kafka-component.html
+---
 
-# Budowanie:
+# building
 ```
 mvn clean install
 ```
 
-# Odpalanie:
+# running
 ```
-export MAILROUTE_HOST="adres servera poczty przychodzącej (imap)" # np imap.wp.pl
-export MAILROUTE_PASSWORD="twoje hasło"
-export MAILROUTE_USERNAME="nazwa użytkownika" # np ktos@wp.pl
+export MAILROUTE_HOST="incomming mail server address (imap)" # e.g. imap.wp.pl
+export MAILROUTE_PASSWORD="user password"
+export MAILROUTE_USERNAME="username" # e.g. user@wp.pl
 mvn spring-boot:run
 ```
