@@ -1,7 +1,7 @@
 # kafkamail
-Simple kafka and mail integration using camel:
+Simple kafka and email integration using camel:
 
-- [mail](https://camel.apache.org/components/latest/mail-component.html)
+- [email](https://camel.apache.org/components/latest/mail-component.html)
 - [kafka](https://camel.apache.org/components/latest/kafka-component.html)
 
 ---
